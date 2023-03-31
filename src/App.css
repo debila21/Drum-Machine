@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+  }
+  
+  
+  
+  .App{
+    background-color:blanchedalmond;
+    margin: auto;
+    text-align: center;
+    margin-top: 33vh;
+    display: flex;
+    justify-content: center;
+  }
+  .drum-pads{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+  }
+  .drum-pad{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
